@@ -1,0 +1,99 @@
+void setup() {  
+ size( 600, 600);
+ colorMode(HSB);
+ background(#FFFFFF);
+  }
+ 
+ void draw() {
+   fill(#DF2C0B);
+   stroke(#D31400);
+   strokeWeight(4);
+   //CUADRADOS ROJOS
+   rect(350, 150, 165, 165);
+   rect(110, 345, 165, 165);
+   rect(195, 145, 140, 140);
+   rect(360, 330, 125, 125);
+      
+   //CUADRADOS GRISES
+   noStroke();
+   fill(#9dbeb7);
+   rect(200, 30, 90, 90);
+   rect(90, 120, 100, 100);
+   rect(410, 75, 70, 70);
+   rect(500, 330, 70, 70);
+   rect(20, 250, 80, 80);
+   rect(360, 470, 70, 70);
+   rect(285, 300, 60, 60);
+   rect(270, 525, 60, 60);
+   rect(290, 460, 55, 55);
+   rect(40, 350, 60, 60);
+   rect(105, 230, 70, 70);
+   rect(530, 260, 50, 50);
+   rect(300, 35, 105, 105);
+   
+   rect(415, 545, 10, 10);
+   rect(527, 150, 15, 15);
+   rect(440, 515, 20, 20);
+   rect(530, 180, 25, 25);
+   rect(485, 115, 30, 30);
+   rect(465, 475, 30, 30);
+   rect(530, 210, 40, 40);
+   rect(500, 420, 40, 40);   
+   rect(385, 545, 20, 20);
+   rect(340, 545, 30, 30);
+   rect(285, 370, 25, 25);
+   rect(315, 370, 30, 30);
+   rect(285, 410, 25, 25);
+   rect(315, 410, 35, 35);
+   rect(230, 520, 30, 30);
+   rect(230, 555, 20, 20);
+   rect(180, 520, 40, 40);
+   rect(150, 525, 20, 20); 
+   rect(65, 425, 40, 40);
+   rect(125, 310, 25, 25);
+   rect(170, 305, 35, 35);
+   rect(220, 295, 45, 45);
+   rect(30, 200, 40, 40);
+   rect(55, 160, 30, 30);
+   rect(120, 80, 30, 30);
+   rect(155, 55, 40, 40);
+   
+   //CIRCULOS
+   fill(#B31C00);
+   circle(400, 280, 60);
+   circle(470, 170, 20);
+   circle(380, 180, 40);
+   
+   //TRIANGULO
+  // triangle(x1, y1, x2, y2, x3, y3)
+   noFill();
+   stroke(#ffffff);
+   strokeWeight(2);
+   triangle(200, 440, 200, 500, 260, 470);
+   triangle(210, 460, 210, 510, 260, 485);
+   
+  //LINEA
+ // line(x1, y1, x2, y2)
+  stroke(#B31C00);
+  strokeWeight(5);
+  line(400, 340, 400, 450);
+ 
+   //TEXTO
+  fill(#ffffff);
+  textSize(80);
+  text("HO", 200, 210);
+  text("LA", 250, 280);
+  
+  textSize(60);
+  text("ESTO", 380, 250);
+  text("ES", 445, 300); 
+  
+  textSize(90);
+  text("UN", 160, 410);
+  
+  textSize(50);
+  text("DI", 440, 370);
+  text("BU", 421, 410);
+  text("JO", 425, 450);  
+  
+ }
